@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, CheckCircle, Star, Users, Zap } from 'lucide-react';
 import FeatureCard from '@/components/FeatureCard';
 import { Headphones, BookOpen, PenTool, Mic } from 'lucide-react';
-import heroImage from '@/assets/hero-bg.jpg';
+import heroImage from '@/assets/hero-bg.jpeg';
 
 const Home = () => {
   const features = [

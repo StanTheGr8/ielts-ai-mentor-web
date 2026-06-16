@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, Brain } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { ModeToggle } from './mode-toggle';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,6 +35,7 @@ const Navbar = () => {
             <Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors">
               Contact
             </Link>
+            <ModeToggle />
           </div>
 
           {/* Desktop Auth Buttons */}
@@ -86,6 +88,10 @@ const Navbar = () => {
               >
                 Contact
               </Link>
+              <div className="flex items-center justify-between px-3 py-2">
+                <span className="text-xs text-muted-foreground">Theme</span>
+                <ModeToggle />
+              </div>
               <div className="flex flex-col space-y-2 px-3 pt-4">
                 <Link to="/signin" onClick={toggleMenu}>
                   <Button variant="ghost" className="w-full">Sign In</Button>

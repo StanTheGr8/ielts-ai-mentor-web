@@ -1,0 +1,407 @@
+{
+  "/home/gregory/Work/ielts-ai-mentor-web/components.json": {
+    "mtime": 1781513188.4509394,
+    "ast_hash": "8374b74daf75bd47ef5e1123bccde4ad",
+    "semantic_hash": "8374b74daf75bd47ef5e1123bccde4ad"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/eslint.config.js": {
+    "mtime": 1781513188.4509394,
+    "ast_hash": "289d6b79f2956f20f833b7b2fe6c3e9b",
+    "semantic_hash": "289d6b79f2956f20f833b7b2fe6c3e9b"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/package.json": {
+    "mtime": 1781513188.4509394,
+    "ast_hash": "6da94264091f1a885c60562068ceb7bc",
+    "semantic_hash": "6da94264091f1a885c60562068ceb7bc"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/postcss.config.js": {
+    "mtime": 1781513188.4509394,
+    "ast_hash": "ef3ba2a81ba19f8ea5ddf625521e96f0",
+    "semantic_hash": "ef3ba2a81ba19f8ea5ddf625521e96f0"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/App.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "6e2612a63a292970cc36060c07c031f1",
+    "semantic_hash": "6e2612a63a292970cc36060c07c031f1"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/FeatureCard.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "783ad123b091cc0bdb6a95752c443992",
+    "semantic_hash": "783ad123b091cc0bdb6a95752c443992"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/Footer.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "6b21fce88b00a7a318499202e818989e",
+    "semantic_hash": "6b21fce88b00a7a318499202e818989e"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/Navbar.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "b49b741f3924cb1d5c8e82aed840d333",
+    "semantic_hash": "b49b741f3924cb1d5c8e82aed840d333"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/accordion.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "1543fc386d0aba4654f3199bf017eaab",
+    "semantic_hash": "1543fc386d0aba4654f3199bf017eaab"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/alert-dialog.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "aca8996e4020285a789d58348abce552",
+    "semantic_hash": "aca8996e4020285a789d58348abce552"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/alert.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "48dac79c18e0c3ff687c320c6fcf1590",
+    "semantic_hash": "48dac79c18e0c3ff687c320c6fcf1590"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/aspect-ratio.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "ea9c6ff6c2931b5089972bfba3fa5c1f",
+    "semantic_hash": "ea9c6ff6c2931b5089972bfba3fa5c1f"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/avatar.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "ce4fe60f4c48c01a5a601d9835648b40",
+    "semantic_hash": "ce4fe60f4c48c01a5a601d9835648b40"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/badge.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "f9c097d427c421f83eb92772a4b8ec06",
+    "semantic_hash": "f9c097d427c421f83eb92772a4b8ec06"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/breadcrumb.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "377763c80b5d08aa7748a2d532bb290e",
+    "semantic_hash": "377763c80b5d08aa7748a2d532bb290e"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/button.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "8111352f2e2544be385af72cc15f55ab",
+    "semantic_hash": "8111352f2e2544be385af72cc15f55ab"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/calendar.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "577b2299d7782fffe974b558233dba3a",
+    "semantic_hash": "577b2299d7782fffe974b558233dba3a"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/card.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "a8c37b8b2cb24a44f46cbae530c075af",
+    "semantic_hash": "a8c37b8b2cb24a44f46cbae530c075af"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/carousel.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "005a47594c5c8f09e27f0ed1f02197cd",
+    "semantic_hash": "005a47594c5c8f09e27f0ed1f02197cd"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/chart.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "8d4b13c80ec8ade9908712155bf0d117",
+    "semantic_hash": "8d4b13c80ec8ade9908712155bf0d117"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/checkbox.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "ca06e9d95214f6c4b90a760098d21830",
+    "semantic_hash": "ca06e9d95214f6c4b90a760098d21830"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/collapsible.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "8bcc61ee503a05663fb77ad9b7ec064a",
+    "semantic_hash": "8bcc61ee503a05663fb77ad9b7ec064a"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/command.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "f7bf707fa618dc27429ec5f1c19028c6",
+    "semantic_hash": "f7bf707fa618dc27429ec5f1c19028c6"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/context-menu.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "d4964b3b39ddf550f9b30c104e0080d8",
+    "semantic_hash": "d4964b3b39ddf550f9b30c104e0080d8"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/dialog.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "3ca438e8db79dc5fa9fb4662372afadd",
+    "semantic_hash": "3ca438e8db79dc5fa9fb4662372afadd"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/drawer.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "1caf6dac62a50b2558dd36d6d7644891",
+    "semantic_hash": "1caf6dac62a50b2558dd36d6d7644891"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/dropdown-menu.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "cf7fe61c5c91eae0bdb3b3864508d48d",
+    "semantic_hash": "cf7fe61c5c91eae0bdb3b3864508d48d"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/form.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "0ed732617aace88aa93d42fe438dd281",
+    "semantic_hash": "0ed732617aace88aa93d42fe438dd281"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/hover-card.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "004259115672f57e95da0b72ea2c613e",
+    "semantic_hash": "004259115672f57e95da0b72ea2c613e"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/input-otp.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "084089343296a7ebcb40fff14c62cb30",
+    "semantic_hash": "084089343296a7ebcb40fff14c62cb30"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/input.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "c7cbc8cd45d01649277bd7107581cb36",
+    "semantic_hash": "c7cbc8cd45d01649277bd7107581cb36"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/label.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "7ea839d3fa873fb063a9709a79e47561",
+    "semantic_hash": "7ea839d3fa873fb063a9709a79e47561"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/menubar.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "a3a53eadb4e2d52cb841ebd2a910d33d",
+    "semantic_hash": "a3a53eadb4e2d52cb841ebd2a910d33d"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/navigation-menu.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "630417e56e3f5f9a5f323565ed86d430",
+    "semantic_hash": "630417e56e3f5f9a5f323565ed86d430"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/pagination.tsx": {
+    "mtime": 1781513188.4549396,
+    "ast_hash": "de159ac89490951ee82b4991f604e394",
+    "semantic_hash": "de159ac89490951ee82b4991f604e394"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/popover.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "b177b8aa44e03c0a5d2a9f00b11d55be",
+    "semantic_hash": "b177b8aa44e03c0a5d2a9f00b11d55be"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/progress.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "9202867eacff0cb1b253a05d5d65bfc0",
+    "semantic_hash": "9202867eacff0cb1b253a05d5d65bfc0"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/radio-group.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "3ace644678cd101153deee82d72048d9",
+    "semantic_hash": "3ace644678cd101153deee82d72048d9"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/resizable.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "cf5896bc9f1524c3f3fb2d4f24eb54bf",
+    "semantic_hash": "cf5896bc9f1524c3f3fb2d4f24eb54bf"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/scroll-area.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "c4d63c56a99feb600ed0e9bbcfd70829",
+    "semantic_hash": "c4d63c56a99feb600ed0e9bbcfd70829"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/select.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "22886e4c5f841c13755088e26c7387e3",
+    "semantic_hash": "22886e4c5f841c13755088e26c7387e3"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/separator.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "e970901b62fe8b73d2b9254fad77f583",
+    "semantic_hash": "e970901b62fe8b73d2b9254fad77f583"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/sheet.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "daa150998b6073011abdfc39df425359",
+    "semantic_hash": "daa150998b6073011abdfc39df425359"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/sidebar.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "27c8db4816b123901768861c586f1cdb",
+    "semantic_hash": "27c8db4816b123901768861c586f1cdb"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/skeleton.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "a5a4d6d5551d4c7feb8176a23e7eb07c",
+    "semantic_hash": "a5a4d6d5551d4c7feb8176a23e7eb07c"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/slider.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "ccbb4f4470af296eafa94f9972e8a4f9",
+    "semantic_hash": "ccbb4f4470af296eafa94f9972e8a4f9"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/sonner.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "5cc4d43770ff3cffb5ba65d5ea3ee26d",
+    "semantic_hash": "5cc4d43770ff3cffb5ba65d5ea3ee26d"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/switch.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "1210b13831d433e8a9488bab91432dd4",
+    "semantic_hash": "1210b13831d433e8a9488bab91432dd4"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/table.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "efdbaeb9710b2f60de7c0e18bd4e3528",
+    "semantic_hash": "efdbaeb9710b2f60de7c0e18bd4e3528"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/tabs.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "edad06f905be7a7e3634fdbe1b6ad61a",
+    "semantic_hash": "edad06f905be7a7e3634fdbe1b6ad61a"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/textarea.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "fb19dce4f1d33ed093b75db5cefed562",
+    "semantic_hash": "fb19dce4f1d33ed093b75db5cefed562"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/toast.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "6b9ed7f669208f6631d1c44bbd556877",
+    "semantic_hash": "6b9ed7f669208f6631d1c44bbd556877"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/toaster.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "d0e062810c47a46b9bb4e8ea19875a02",
+    "semantic_hash": "d0e062810c47a46b9bb4e8ea19875a02"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/toggle-group.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "6338f2936a2474998e1e546c6a1664a6",
+    "semantic_hash": "6338f2936a2474998e1e546c6a1664a6"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/toggle.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "5840a6d0f51ab73d9f40592fd0db4899",
+    "semantic_hash": "5840a6d0f51ab73d9f40592fd0db4899"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/tooltip.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "336ca01a98037c9a1dfe936bde3ee549",
+    "semantic_hash": "336ca01a98037c9a1dfe936bde3ee549"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/components/ui/use-toast.ts": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "4f094014a1315ca1081cbdc7f78d55cc",
+    "semantic_hash": "4f094014a1315ca1081cbdc7f78d55cc"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/hooks/use-mobile.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "209b5193af16624cdd89d3591480dd48",
+    "semantic_hash": "209b5193af16624cdd89d3591480dd48"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/hooks/use-toast.ts": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "bc4be55df07bc8727d5df9ed7799ad64",
+    "semantic_hash": "bc4be55df07bc8727d5df9ed7799ad64"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/lib/utils.ts": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "5a6fd53fdcf2be529e9cc0b718fde352",
+    "semantic_hash": "5a6fd53fdcf2be529e9cc0b718fde352"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/main.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "15da54e39d48ef50de2df869b054c181",
+    "semantic_hash": "15da54e39d48ef50de2df869b054c181"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/pages/About.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "fbad768dc109f573626e1de9ad79f2c8",
+    "semantic_hash": "fbad768dc109f573626e1de9ad79f2c8"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/pages/Contact.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "219df7dada64fa95b4f9b8ca7a8610e1",
+    "semantic_hash": "219df7dada64fa95b4f9b8ca7a8610e1"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/pages/Features.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "ff712f7de33a1b96175d569374f6e6df",
+    "semantic_hash": "ff712f7de33a1b96175d569374f6e6df"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/pages/Home.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "afeb52d9cfa03cee8982f059258fef63",
+    "semantic_hash": "afeb52d9cfa03cee8982f059258fef63"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/pages/Index.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "ef84d2be7c5ab642bc3c76a7ca764f7b",
+    "semantic_hash": "ef84d2be7c5ab642bc3c76a7ca764f7b"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/pages/MockTests.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "b214b2a4e90f61643b1e87a5c1e113eb",
+    "semantic_hash": "b214b2a4e90f61643b1e87a5c1e113eb"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/pages/NotFound.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "7f6f4e93331684fdf5a149fdf712cb80",
+    "semantic_hash": "7f6f4e93331684fdf5a149fdf712cb80"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/pages/SignIn.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "3ba109e0db187684eac1dcb6ccf3e175",
+    "semantic_hash": "3ba109e0db187684eac1dcb6ccf3e175"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/pages/SignUp.tsx": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "5f63acacbcac30064f5dadd9551044eb",
+    "semantic_hash": "5f63acacbcac30064f5dadd9551044eb"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/vite-env.d.ts": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "0352474ba2918efe13895edbc3780d94",
+    "semantic_hash": "0352474ba2918efe13895edbc3780d94"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/tailwind.config.ts": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "92a48ef7d5c82e3552d3814d860d4bf9",
+    "semantic_hash": "92a48ef7d5c82e3552d3814d860d4bf9"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/tsconfig.app.json": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "ffe0e5efeba4bb692e7cf562160c6c5e",
+    "semantic_hash": "ffe0e5efeba4bb692e7cf562160c6c5e"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/tsconfig.json": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "0fc7b2489a984ece8406dc8d6acbbfce",
+    "semantic_hash": "0fc7b2489a984ece8406dc8d6acbbfce"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/tsconfig.node.json": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "1417fb05378a1d1102f085e60b20db0e",
+    "semantic_hash": "1417fb05378a1d1102f085e60b20db0e"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/vite.config.ts": {
+    "mtime": 1781513188.4629395,
+    "ast_hash": "f8861384f420982162988fce48a8692b",
+    "semantic_hash": "f8861384f420982162988fce48a8692b"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/README.md": {
+    "mtime": 1781513188.4509394,
+    "ast_hash": "f48dd19ec66ca28dee86469bb43481bd",
+    "semantic_hash": "f48dd19ec66ca28dee86469bb43481bd"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/index.html": {
+    "mtime": 1781513188.4509394,
+    "ast_hash": "65fe677412fc1c37e0e2f2c4f7691597",
+    "semantic_hash": "65fe677412fc1c37e0e2f2c4f7691597"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/public/robots.txt": {
+    "mtime": 1781513188.4509394,
+    "ast_hash": "f9dff89adf98833e676de2205921996a",
+    "semantic_hash": "f9dff89adf98833e676de2205921996a"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/public/placeholder.svg": {
+    "mtime": 1781513188.4509394,
+    "ast_hash": "35707bd9960ba5281c72af927b79291f",
+    "semantic_hash": "35707bd9960ba5281c72af927b79291f"
+  },
+  "/home/gregory/Work/ielts-ai-mentor-web/src/assets/hero-bg.jpeg": {
+    "mtime": 1781514852.875918,
+    "ast_hash": "28eef5f99d37d23b8dd87236ba6e7a6a",
+    "semantic_hash": "28eef5f99d37d23b8dd87236ba6e7a6a"
+  }
+}

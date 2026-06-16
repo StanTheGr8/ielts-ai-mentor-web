@@ -1,0 +1,5 @@
+/home/gregory/Work/ielts-ai-mentor-web/README.md
+/home/gregory/Work/ielts-ai-mentor-web/index.html
+/home/gregory/Work/ielts-ai-mentor-web/public/robots.txt
+/home/gregory/Work/ielts-ai-mentor-web/public/placeholder.svg
+/home/gregory/Work/ielts-ai-mentor-web/src/assets/hero-bg.jpeg

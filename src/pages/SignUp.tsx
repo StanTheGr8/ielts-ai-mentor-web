@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -8,6 +8,8 @@ import { Separator } from '@/components/ui/separator';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Eye, EyeOff, Brain, Mail, Lock, User, Globe } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import { supabase } from '@/lib/supabase';
+import { userService } from '@/lib/userService';
 
 const SignUp = () => {
   const [formData, setFormData] = useState({
@@ -23,6 +25,7 @@ const SignUp = () => {
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const { toast } = useToast();
+  const navigate = useNavigate();
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -47,21 +50,58 @@ const SignUp = () => {
 
     setIsLoading(true);
     
-    // Simulate API call
-    setTimeout(() => {
+    try {
+      // 1. Sign up the user in Supabase Auth
+      const { data: authData, error: authError } = await supabase.auth.signUp({
+        email: formData.email,
+        password: formData.password,
+      });
+
+      if (authError) throw authError;
+      if (!authData.user) throw new Error("Auth failed: No user returned.");
+
+      // 2. Create the profile in the 'profiles' table
+      await userService.updateProfile({
+        id: authData.user.id,
+        name: `${formData.firstName} ${formData.lastName}`,
+        email: formData.email,
+        joined_date: new Date().toISOString(),
+        profile_pic_url: `https://api.dicebear.com/7.x/avataaars/svg?seed=${formData.firstName}`,
+      });
+
       toast({
         title: "Account created successfully!",
         description: "Welcome to IELTS AI. Let's start your preparation journey.",
       });
+      
+      navigate('/dashboard');
+    } catch (error: any) {
+      toast({
+        title: "Sign Up Failed",
+        description: error.message || "An error occurred while creating your account.",
+        variant: "destructive",
+      });
+    } finally {
       setIsLoading(false);
-    }, 1500);
+    }
   };
 
-  const handleGoogleSignUp = () => {
-    toast({
-      title: "Google Sign Up",
-      description: "Google OAuth integration will be implemented here.",
-    });
+  const handleGoogleSignUp = async () => {
+    try {
+      const { error } = await supabase.auth.signInWithOAuth({
+        provider: 'google',
+        options: {
+          redirectTo: window.location.origin + '/dashboard',
+        },
+      });
+      if (error) throw error;
+    } catch (error: any) {
+      toast({
+        title: "Google Sign Up Error",
+        description: error.message || "Something went wrong.",
+        variant: "destructive",
+      });
+    }
   };
 
   return (
