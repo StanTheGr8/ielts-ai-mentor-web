@@ -62,12 +62,11 @@ const SignUp = () => {
 
       // 2. Create the profile in the 'profiles' table
       await userService.updateProfile({
-        id: authData.user.id,
         name: `${formData.firstName} ${formData.lastName}`,
         email: formData.email,
         joined_date: new Date().toISOString(),
         profile_pic_url: `https://api.dicebear.com/7.x/avataaars/svg?seed=${formData.firstName}`,
-      });
+      }, authData.user.id);
 
       toast({
         title: "Account created successfully!",

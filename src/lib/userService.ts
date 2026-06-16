@@ -16,14 +16,19 @@ export const userService = {
     return data as UserProfile;
   },
 
-  async updateProfile(updates: Partial<UserProfile>): Promise<UserProfile> {
-    const { data: { user } } = await supabase.auth.getUser();
-    if (!user) throw new Error('User not authenticated');
+  async updateProfile(updates: Partial<UserProfile>, userId?: string): Promise<UserProfile> {
+    let currentUserId = userId;
+
+    if (!currentUserId) {
+      const { data: { user } } = await supabase.auth.getUser();
+      if (!user) throw new Error('User not authenticated');
+      currentUserId = user.id;
+    }
 
     const { data, error } = await supabase
       .from('profiles')
       .upsert({
-        id: user.id,
+        id: currentUserId,
         ...updates,
         updated_at: new Date().toISOString(),
       })
